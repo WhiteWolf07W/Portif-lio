@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Fredoka", sans-serif;
+}
+
+.container {
+  color: #1c1c1c;
+  background: #ecf4ff;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+img {
+  max-height: 160px;
+}
+
+.cabeca {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.projetos {
+  margin: 32px;
+  border-radius: 20px;
+  background: linear-gradient(236.85deg, #5090de 27.26%, #c0d7f3 96.03%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.linhas {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.linhas a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  border-radius: 100px;
+  background: #ecf4ff;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #5090de 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
